@@ -15,22 +15,22 @@ require "pry"
 # end
 
  def reverse_each_word(s)
-   i = 0 
-   y = []
-  s = s.split(/\s+/)
+  # i = 0 
+  # y = []
+ # s = s.split(/\s+/)
    
   #s = s.split(",")
    
-   s.each do |x|  
+  # s.each do |x|  
      
     
        
-        y << s[i].reverse
+       # y << s[i].reverse
       
-  i += 1
-    end
-   y=y.join(" ")
- end
+ # i += 1
+  #  end
+ #  y=y.join(" ")
+ #end
  
  
  
@@ -39,11 +39,11 @@ require "pry"
    # i=0
      #n=[]
      #s=s.join(" ")
-      y = y.split(/\s+/)
+      s = s.split(/\s+/)
      
-     y.collect do |x| 
+     s.collect do |x| 
       
-   y.reverse
+   s.reverse
      
     end
    # return n
