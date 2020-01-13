@@ -47,7 +47,7 @@ require "pry"
      
     end
    # return n
-   
+    s=s.join(" ")
   end
     
      
