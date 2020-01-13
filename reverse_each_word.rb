@@ -19,7 +19,7 @@ require "pry"
   # y = []
  # s = s.split(/\s+/)
    
-  #s = s.split(",")
+  
    
   # s.each do |x|  
      
@@ -48,7 +48,7 @@ require "pry"
     end
     n=n.join(" ")
    return n
-   # s=s.join(" ")
+   
   end
     
      
