@@ -46,7 +46,7 @@ require "pry"
   n << s[i].reverse
      i += 1
     end
-    n=n.join("")
+    n=n.join(" ")
    return n
    # s=s.join(" ")
   end
