@@ -36,18 +36,19 @@ require "pry"
  
  # def collect(s)
     
-   # i=0
-     #n=[]
+    i=0
+     n=[]
      #s=s.join(" ")
       s = s.split(/\s+/)
      
      s.collect do |x| 
       
-   s.reverse
+  n << s[i].reverse
      
     end
-   # return n
-    s=s.join(" ")
+    n=n.join("")
+   return n
+   # s=s.join(" ")
   end
     
      
