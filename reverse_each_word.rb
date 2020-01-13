@@ -44,7 +44,7 @@ require "pry"
      s.collect do |x| 
       
   n << s[i].reverse
-     
+     i += 1
     end
     n=n.join("")
    return n
